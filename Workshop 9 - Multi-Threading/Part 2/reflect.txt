@@ -1,0 +1,14 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           November 28, 2020
+//==============================================
+// OOP345 Workshop 9 Reflection
+//==============================================
+
+	In this workshop, I have mainly learnt how to implement multithreading to the code which I carried out to partitioned the data of the input file and encode each thread and combine them to the encoded.dat.txt file. By learning how to write a function that partition the data into different sections, I was able to learn how threads work and how each thread processes on its own unique section which ends to the same as single thread applications. The advantage of having multiple threads is that each thread would run at the same time and carry out their own process simultaneously but would cause more memory to be taken at that time in return. I also learn how to read and write binary files through opening the files with the "ios::binary" signifier which would let the compiler know that the file is a binary file and would read the file as a computer. It is necessary to use binary files in this workshop as it is a non-human readable file that only the computer could read and when it is stored as a txt file, it is viewed in ASCII format which is a way to encode the input such that a human could not read until the computer translates the file to a human-readable language. 
+	It was important to bind the function to its arguments as it allows for a set amount of arguments to be bounded in a variable where unbounded arguments are set as placeholders, such as the text + (nbytes*i/numThreads) argument. This is useful to shorten function calls that require a large amount of arguments and only input parameters that are unbounded. For future applications, this could save a lot of time coding if there are cases where the function is called a significant amount of times in a code.
+	As this workshop was primarily a way to introduce me to multithreading, there was no issues that were faced when working on the workshop. By reading the multi-thread and thread classes sections on the notes in the ICT site, I was able to smoothly work on this workshop and meet the requirements for the workshop.
+

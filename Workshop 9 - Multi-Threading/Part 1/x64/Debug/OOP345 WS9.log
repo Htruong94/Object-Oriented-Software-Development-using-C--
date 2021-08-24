@@ -1,0 +1,3 @@
+﻿  SecureData.cpp
+D:\School\OOP345\OOP345 WS9\SecureData.cpp(107,24): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  OOP345 WS9.vcxproj -> D:\School\OOP345\OOP345 WS9\x64\Debug\OOP345 WS9.exe
