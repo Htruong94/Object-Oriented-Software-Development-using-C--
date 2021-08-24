@@ -1,0 +1,15 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           October 18, 2020
+//==============================================
+// OOP345 Workshop 4 Reflection
+//==============================================
+
+In this workshop, I have learnt how to create a code that implements composition, in the form of the Restaurant module, and aggregation, in the form of ConfirmationSender module, relationships. The restaurant is directly responsible of the Reservation object meaning that if the restaurant has been deleted, the Reservation object will also be deleted. Thus, the restaurant module is an example of composition coding. On the other hand, ConfirmationSender only borrows the reservation object and would be still exist in the system if the ConfirmationSender class is deleted. The difference between the Restaurant class and ConfirmationSender class handling its reservation object can be seen as the ConfirmationSender class represents an aggregation relationship. When implementing the move and copy functions between the composition and aggregation relations, both use the same logic when handling the transfer of information so there is no difference between the two. 
+
+I have also learnt how to use the string class and manipulate them to parse them to obtain the information within as show in the Restaurant class. The main functions used in the strings were the "find" where it obtains the position of the parameter, "substr" where it takes 2 position and cuts the string with the parameters, "stoi" where it obtains a numeric value from the string with a given position, and "erase" where it takes 2 parameters and deletes the portion.
+
+The troubles I have faced when working on this workshop was mainly with the different handling of the deletion of data with the ConfirmationSender class and the Restaurant class. As I work on the workshop, I start to differentiate between the two relationships and learn how to handle the data. But in the end, I was not able to fully fix the memory leak arising from the ConfirmationSender in the += operator. I also had trouble with the logic of the string functions which was solved by reading on the functions through the link provided in the instructions and learnt by extracting the data from the string given.

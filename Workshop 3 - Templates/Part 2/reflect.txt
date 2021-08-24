@@ -1,0 +1,19 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           October 11, 2020
+//==============================================
+// OOP345 Workshop 3 Reflection
+//==============================================
+
+In this workshop, I have mainly learned how to use class templates and how to manipulate and work around the class templates to achieve different results depending on the template parameters. With template specialization, I was able to learn how to use different parameter given to lead the code to the correct specialization to have it function dependent on the parameter. I also learnt how to derive a template class from a different template class and use the syntax to call the base template class functions by inputting the proper parameters. 
+
+The problems I have faced when working on this workshop was the understanding of how the syntax works when dealing with the base template class functions in the derived template class. As it was difficult to grasp how to properly use these functions, as I continued working on the workshop, the syntax started to make more sense to me and helped me understand the template more.  
+
+The reason for specializing the operator+=() member function is that using templates would require different operation inside the function. In this case, there was a template that deals with strings and another that deals with integers. It is important to specialize this as using the same code for both would not work as they require different codes to allow for the addition of strings or integers to function properly. This is the same for specializing the initial value for a summation as the value is dependent on what parameter is given. An integer would require a numeric initialization while a string would require an empty string initialization. As such, specialization is required to satisfy the parameter given to initialize the variables.
+
+When defining the class variable outside the class definition, we are able to use the parameters of the templates that would not be possible when defining the variables inside the definition. Dealing with class templates would require the variables to be defined within the class as they would be dependent on the parameters of the template.
+
+In this lab, we did not split the header file to a ".cpp" and ".h" file. This is due to the use of class templates which is required in the definition of the member functions. By doing all of the module within the ".h" file allows for the use of the template so that the templates are consistent to the parameter given. The "= initial" prototype means that the value is passed to the specialization where it is initialized in the template specialization rather than in the class and allows for one parameter when creating a class in the main code.
