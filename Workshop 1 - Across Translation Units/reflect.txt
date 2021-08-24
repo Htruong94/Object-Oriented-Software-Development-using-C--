@@ -1,0 +1,15 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           September 25, 2020
+//==============================================
+// OOP345 Workshop 1 Reflection
+//==============================================
+
+While working on the workshop, I have learnt how to implement variables of different scopes efficiently and learn when it is necessary to create the variable of different scope. I have also learnt how to use command line arguments in the debugger within visual studio so that the parameters given to the program can be viewed and used as the program executes.
+
+The difference between internal and external linkage is the use of an entity between the scope of different units. Internal can only be used within the unit where the entity resides while external can be used in units outside the unit where the entity resides. In this program, a static variable is used in the display function such that the variable is stored within the entity of that function and is kept active throughout the execution of the program. This allows for the ability to count the number of times that the display function has been called by the main function and is inaccessible outside the function. This is an example of internal linkage. Meanwhile an external linkage can be seen with the g_sysclock variable as seen with the extern keyword. This variable is used throughout the program and is called in multiple functions which shows a global scope and follows the external linkage definition. 
+
+When upgrading the event class to follow the requirements of part 2, I first made the variable into a dynamically allocated variable. Then I use the length of the input description and use it to dynamically allocate the variable with the length of the input such that the variable will only allocate enough memory to suffice its needs.
