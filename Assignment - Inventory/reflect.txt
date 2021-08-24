@@ -1,0 +1,11 @@
+// Name: Hung Truong
+// Seneca Student ID: 147779193
+// Seneca email: htruong19@myseneca.ca
+// Date of completion: November 27, 2020
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+	As the final project is the accumulation of all the concepts we have learnt throughout the course, the first two parts were pretty straight forward with familiar concepts that I have encountered in the workshops. The third milestone focused on the movement of objects in containers which was heavily focused on so my understanding on this subject had improved as I follow the movement of data while debugging the output of the code. 
+	Milestone 3 had the most problems for me while working on the Workstation and LineManager modules. I have faced numerous Orphan_All exceptions which had led to me going back to read on the use of deque and how using an iterator that is not valid would lead to this exception. By going through the code to solve this exception, I have learnt how to better code to avoid this in the future and was successfully able to overcome this exception. The other milestones did not pose any real problem as it was rehashing concepts of the workshops which were still fresh in my mind while completing their requirements. 
+	The course overall did help me understand the importance of coding in a way that would minimize memory leaks or write in a more optimal manner even though I am still coding a bit messy. As I continue through my program, I would hope to improve my coding and implement what I have learnt in this course and become a better programmer overall.
