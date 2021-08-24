@@ -1,0 +1,5 @@
+﻿  SongCollection.cpp
+D:\School\OOP345\OOP345 WS7p2\SongCollection.cpp(57,29): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+D:\School\OOP345\OOP345 WS7p2\SongCollection.cpp(67,35): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+D:\School\OOP345\OOP345 WS7p2\SongCollection.cpp(75,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  OOP345 WS7.vcxproj -> D:\School\OOP345\OOP345 WS7p2\x64\Debug\OOP345 WS7.exe
