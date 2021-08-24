@@ -1,0 +1,13 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           November 21, 2020
+//==============================================
+// OOP345 Workshop 8 Reflection
+//==============================================
+
+In this workshop, I have learnt how to implement and understand the difference between smart and raw pointers as shown in the use of a raw pointer and a smart pointer of the same function. With this workshop, I chose to use a unique smart pointer but a shared smart pointer could have perform fine as well and I have seen the difference between the smart and raw pointer with smart pointers are deleted automatically at the end of its life and does not require to be deleted when an exception occur while a raw pointer would require to be deleted manually and would leave a memory leak if not properly deleted when an exception occurs. In this case, I threw the exception after performing a try and catch on the raw pointer implementation as there would be a memory leak if I did not implement this. This is due to the pointer being created but not deleted when the exception occurs after the pointer was created and not assigned for deletion to be carried out. The syntax for creating a smart pointer requires a unique_ptr or shared_ptr with the data type of the pointer as seen on line 57 of Utilities.cpp "std::unique_ptr<Product>". 
+
+As this workshop was only focus on the difference between a raw pointer and smart pointer, there was no problems that were faced in working on this workshop. It provided a good insight on why smart pointers should be used over raw pointers and how to perform the smart pointers in a code.

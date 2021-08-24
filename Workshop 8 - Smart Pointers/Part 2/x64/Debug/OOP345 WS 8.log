@@ -1,0 +1,10 @@
+﻿  Utilities.cpp
+D:\School\OOP345\OOP345 WS8p2\Element.h(67,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\School\OOP345\OOP345 WS8p2\Element.h(75,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\School\OOP345\OOP345 WS8p2\Element.h(83,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  w8_p2.cpp
+D:\School\OOP345\OOP345 WS8p2\Element.h(67,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\School\OOP345\OOP345 WS8p2\Element.h(75,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\School\OOP345\OOP345 WS8p2\Element.h(83,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  OOP345 WS 8.vcxproj -> D:\School\OOP345\OOP345 WS8p2\x64\Debug\OOP345 WS 8.exe
