@@ -1,0 +1,13 @@
+//==============================================
+// Name:           Hung Truong
+// Student Number: 147779193
+// Email:          htruong19@myseneca.ca
+// Section:        NAA
+// Date:           October 3, 2020
+//==============================================
+// OOP345 Workshop 2 Reflection
+//==============================================
+
+While working on this workshop, I have learnt how to use the chrono library through implementing the typing throughout the code and manipulate them to get results that are related to a physical time. I have learnt how to use the move semantics within a class and reinforce my understanding of file manipulations from the past workshop as well as from the previous course. This workshop also helps me understand the need of using a move semantics instead of a copy semantics as the difference between the time compiling both actions is significant and would become more processing-intensive if I were to continue using the copy semantics. The reason that this occurs is that the move semantics copies the address of the other object so the current object is able to gain access of the data within the address. Meanwhile, the copy semantics does a hard copy of the source object which goes through each address and copies it to its own address. This would lead to a higher amount of processing required as all addresses has to be accessed one by one while the move semantics just copies one address that holds every element which cuts the processing down from many to one. The cut is signified by the major difference in the duration from the copy to move shown in the workshop in a magnitude of millions with the data given. 
+
+During this workshop, the major problem I have encountered was the use of the chrono library and how manipulating the data retrieved from the library were not giving me the desired outcome. To resolve this issue, I looked into the website provided on the chrono library as well as look into the given example of the code to better understand how to work with the data given. Thus, I was able to learn the formatting of the library and correctly gain the results that were required in this workshop. Outside of this problem, there were not any issues as the workshop was mainly straight forward and shows the use of the chrono library as well as the difference between using the copy and move semantics with processing-intensive data.
