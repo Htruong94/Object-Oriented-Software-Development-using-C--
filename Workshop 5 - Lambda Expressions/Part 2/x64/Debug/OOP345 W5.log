@@ -1,0 +1,20 @@
+﻿  Book.cpp
+  Movie.cpp
+D:\School\OOP345\OOP345 WS5p2\Movie.cpp(44,22): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
+  SpellChecker.cpp
+  w5_p2.cpp
+D:\School\OOP345\OOP345 WS5p2\Collection.h(72,1): error C2512: 'sdds::Book': no appropriate default constructor available
+D:\School\OOP345\OOP345 WS5p2\Collection.h(62): message : while compiling class template member function 'sdds::Collection<sdds::Book> &sdds::Collection<sdds::Book>::operator +=(const T &)'
+          with
+          [
+              T=sdds::Book
+          ]
+D:\School\OOP345\OOP345 WS5p2\w5_p2.cpp(63): message : see reference to function template instantiation 'sdds::Collection<sdds::Book> &sdds::Collection<sdds::Book>::operator +=(const T &)' being compiled
+          with
+          [
+              T=sdds::Book
+          ]
+D:\School\OOP345\OOP345 WS5p2\w5_p2.cpp(48): message : see reference to class template instantiation 'sdds::Collection<sdds::Book>' being compiled
+D:\School\OOP345\OOP345 WS5p2\Collection.h(79,1): error C2512: 'sdds::Book': no appropriate default constructor available
+D:\School\OOP345\OOP345 WS5p2\Collection.h(85,1): error C2512: 'sdds::Book': no appropriate default constructor available
+  Generating Code...
